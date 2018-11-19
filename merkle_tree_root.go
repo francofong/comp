@@ -18,7 +18,7 @@ type Data interface {
 type MerkleTree struct {
 	RootNode  *MerkleNode
 	merkleRoot []byte
-	Leafs      []*Node
+	Leafs      []*MerkleNode
 }
 
 //Node represents a node, root, or leaf in the tree.
